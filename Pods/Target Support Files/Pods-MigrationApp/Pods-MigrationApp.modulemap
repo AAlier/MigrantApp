@@ -1,0 +1,6 @@
+framework module Pods_MigrationApp {
+  umbrella header "Pods-MigrationApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
