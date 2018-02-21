@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		841774EA203808CF00FB3986 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774E9203808CF00FB3986 /* StatusBarController.swift */; };
+		84028A83203D9D59001308B5 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A82203D9D59001308B5 /* Region.swift */; };
+		84028A85203DB42F001308B5 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A84203DB42F001308B5 /* Organization.swift */; };
+		84028A88203DB9DB001308B5 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774E9203808CF00FB3986 /* StatusBarController.swift */; };
+		84028A8A203DBB36001308B5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A89203DBB36001308B5 /* Data.swift */; };
+		84028A8C203DBBB1001308B5 /* Citizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A8B203DBBB1001308B5 /* Citizen.swift */; };
 		841774F02038119800FB3986 /* SettingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774EE2038119800FB3986 /* SettingViewCell.swift */; };
 		841774F12038119800FB3986 /* SettingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841774EF2038119800FB3986 /* SettingViewCell.xib */; };
 		841774F420381BD600FB3986 /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774F320381BD600FB3986 /* ReferenceViewController.swift */; };
@@ -27,7 +31,11 @@
 		511C2D594FD51D999782F231 /* Pods-MigrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MigrationApp/Pods-MigrationApp.release.xcconfig"; sourceTree = "<group>"; };
 		55889D2A5ABF79C1CD759D56 /* Pods_MigrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MigrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B066081DCA8EA0CEBC1F4C7 /* Pods-MigrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MigrationApp/Pods-MigrationApp.debug.xcconfig"; sourceTree = "<group>"; };
-		841774E9203808CF00FB3986 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarController.swift; path = MigrationApp/others/StatusBarController.swift; sourceTree = SOURCE_ROOT; };
+		84028A82203D9D59001308B5 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		84028A84203DB42F001308B5 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
+		84028A89203DBB36001308B5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		84028A8B203DBBB1001308B5 /* Citizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citizen.swift; sourceTree = "<group>"; };
+		841774E9203808CF00FB3986 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarController.swift; path = MigrationApp/ui/others/StatusBarController.swift; sourceTree = SOURCE_ROOT; };
 		841774EE2038119800FB3986 /* SettingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewCell.swift; sourceTree = "<group>"; };
 		841774EF2038119800FB3986 /* SettingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewCell.xib; sourceTree = "<group>"; };
 		841774F320381BD600FB3986 /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +70,28 @@
 				55889D2A5ABF79C1CD759D56 /* Pods_MigrationApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84028A80203D9D25001308B5 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				841774F220381BB500FB3986 /* reference */,
+				841774EB20380B3100FB3986 /* others */,
+				841190EE20370F2900CE612C /* organizations */,
+				84A0084A2036B91A0043A4B8 /* settings */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		84028A81203D9D37001308B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				84028A82203D9D59001308B5 /* Region.swift */,
+				84028A84203DB42F001308B5 /* Organization.swift */,
+				84028A89203DBB36001308B5 /* Data.swift */,
+				84028A8B203DBBB1001308B5 /* Citizen.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 		841190EE20370F2900CE612C /* organizations */ = {
@@ -111,10 +141,8 @@
 		84A0083020369BE80043A4B8 /* MigrationApp */ = {
 			isa = PBXGroup;
 			children = (
-				841774F220381BB500FB3986 /* reference */,
-				841774EB20380B3100FB3986 /* others */,
-				841190EE20370F2900CE612C /* organizations */,
-				84A0084A2036B91A0043A4B8 /* settings */,
+				84028A81203D9D37001308B5 /* model */,
+				84028A80203D9D25001308B5 /* ui */,
 				84A0083120369BE80043A4B8 /* AppDelegate.swift */,
 				84A0083520369BE80043A4B8 /* Main.storyboard */,
 				84A0083B20369BE80043A4B8 /* Assets.xcassets */,
@@ -265,7 +293,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -275,13 +303,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84028A88203DB9DB001308B5 /* StatusBarController.swift in Sources */,
+				84028A83203D9D59001308B5 /* Region.swift in Sources */,
 				84A008492036B6790043A4B8 /* SettingsController.swift in Sources */,
 				847FB18D20383B87005AA1F9 /* OrganizationsViewController.swift in Sources */,
-				841774EA203808CF00FB3986 /* StatusBarController.swift in Sources */,
+				84028A8A203DBB36001308B5 /* Data.swift in Sources */,
 				84A0083A20369BE80043A4B8 /* MigrationApp.xcdatamodeld in Sources */,
 				84A0083220369BE80043A4B8 /* AppDelegate.swift in Sources */,
 				841774F420381BD600FB3986 /* ReferenceViewController.swift in Sources */,
 				841774F7203820EA00FB3986 /* OrganizationViewCell.swift in Sources */,
+				84028A85203DB42F001308B5 /* Organization.swift in Sources */,
+				84028A8C203DBBB1001308B5 /* Citizen.swift in Sources */,
 				841774F02038119800FB3986 /* SettingViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PT5VGPU6JG;
+				DEVELOPMENT_TEAM = U5DCDBG2W2;
 				INFOPLIST_FILE = MigrationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iCoder.MigrationApp;
@@ -437,7 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PT5VGPU6JG;
+				DEVELOPMENT_TEAM = U5DCDBG2W2;
 				INFOPLIST_FILE = MigrationApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iCoder.MigrationApp;

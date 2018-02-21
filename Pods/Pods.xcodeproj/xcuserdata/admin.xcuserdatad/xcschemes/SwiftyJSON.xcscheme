@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DF74756EB687DB8D41D5FBCA5C0AAAD8'
-               BlueprintName = 'SJSegmentedScrollView'
+               BlueprintIdentifier = 'D252D2123D28A67E95DBE1438F746C13'
+               BlueprintName = 'SwiftyJSON'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SJSegmentedScrollView.framework'>
+               BuildableName = 'SwiftyJSON.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

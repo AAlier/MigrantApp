@@ -7,4 +7,6 @@ target 'MigrationApp' do
 
   # Pods for MigrationApp
   pod ’SJSegmentedScrollView’
+  pod 'SwiftyJSON'
+  
 end
