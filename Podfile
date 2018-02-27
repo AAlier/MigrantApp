@@ -8,5 +8,6 @@ target 'MigrationApp' do
   # Pods for MigrationApp
   pod ’SJSegmentedScrollView’
   pod 'SwiftyJSON'
-  
+  pod 'Alamofire', '~> 4.6'
+  pod 'Gloss', '~> 2.0'
 end

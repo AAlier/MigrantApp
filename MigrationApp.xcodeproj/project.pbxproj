@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84028A83203D9D59001308B5 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A82203D9D59001308B5 /* Region.swift */; };
-		84028A85203DB42F001308B5 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A84203DB42F001308B5 /* Organization.swift */; };
 		84028A88203DB9DB001308B5 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774E9203808CF00FB3986 /* StatusBarController.swift */; };
-		84028A8A203DBB36001308B5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A89203DBB36001308B5 /* Data.swift */; };
-		84028A8C203DBBB1001308B5 /* Citizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84028A8B203DBBB1001308B5 /* Citizen.swift */; };
 		841774F02038119800FB3986 /* SettingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774EE2038119800FB3986 /* SettingViewCell.swift */; };
 		841774F12038119800FB3986 /* SettingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841774EF2038119800FB3986 /* SettingViewCell.xib */; };
 		841774F420381BD600FB3986 /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774F320381BD600FB3986 /* ReferenceViewController.swift */; };
 		841774F7203820EA00FB3986 /* OrganizationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841774F5203820EA00FB3986 /* OrganizationViewCell.swift */; };
 		841774F8203820EA00FB3986 /* OrganizationViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841774F6203820EA00FB3986 /* OrganizationViewCell.xib */; };
+		843059632045908500043627 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843059622045908500043627 /* Group.swift */; };
+		84305966204596D200043627 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84305965204596D200043627 /* ServerManager.swift */; };
+		843059682045971E00043627 /* HTTPRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843059672045971E00043627 /* HTTPRequestManager.swift */; };
+		8430596A2045974300043627 /* HttpStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843059692045974300043627 /* HttpStatusCode.swift */; };
+		8430596C2045987200043627 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430596B2045987200043627 /* Data.swift */; };
+		8430596E2045991B00043627 /* Citizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430596D2045991B00043627 /* Citizen.swift */; };
 		847FB18D20383B87005AA1F9 /* OrganizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847FB18C20383B87005AA1F9 /* OrganizationsViewController.swift */; };
 		84A0083220369BE80043A4B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A0083120369BE80043A4B8 /* AppDelegate.swift */; };
 		84A0083720369BE80043A4B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A0083520369BE80043A4B8 /* Main.storyboard */; };
@@ -31,16 +33,18 @@
 		511C2D594FD51D999782F231 /* Pods-MigrationApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrationApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MigrationApp/Pods-MigrationApp.release.xcconfig"; sourceTree = "<group>"; };
 		55889D2A5ABF79C1CD759D56 /* Pods_MigrationApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MigrationApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B066081DCA8EA0CEBC1F4C7 /* Pods-MigrationApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MigrationApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MigrationApp/Pods-MigrationApp.debug.xcconfig"; sourceTree = "<group>"; };
-		84028A82203D9D59001308B5 /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
-		84028A84203DB42F001308B5 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
-		84028A89203DBB36001308B5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		84028A8B203DBBB1001308B5 /* Citizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citizen.swift; sourceTree = "<group>"; };
 		841774E9203808CF00FB3986 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatusBarController.swift; path = MigrationApp/ui/others/StatusBarController.swift; sourceTree = SOURCE_ROOT; };
 		841774EE2038119800FB3986 /* SettingViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewCell.swift; sourceTree = "<group>"; };
 		841774EF2038119800FB3986 /* SettingViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewCell.xib; sourceTree = "<group>"; };
 		841774F320381BD600FB3986 /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
 		841774F5203820EA00FB3986 /* OrganizationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationViewCell.swift; sourceTree = "<group>"; };
 		841774F6203820EA00FB3986 /* OrganizationViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrganizationViewCell.xib; sourceTree = "<group>"; };
+		843059622045908500043627 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		84305965204596D200043627 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		843059672045971E00043627 /* HTTPRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPRequestManager.swift; sourceTree = "<group>"; };
+		843059692045974300043627 /* HttpStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpStatusCode.swift; sourceTree = "<group>"; };
+		8430596B2045987200043627 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8430596D2045991B00043627 /* Citizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Citizen.swift; sourceTree = "<group>"; };
 		847FB18C20383B87005AA1F9 /* OrganizationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationsViewController.swift; sourceTree = "<group>"; };
 		84A0082E20369BE80043A4B8 /* MigrationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigrationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A0083120369BE80043A4B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,10 +90,9 @@
 		84028A81203D9D37001308B5 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				84028A82203D9D59001308B5 /* Region.swift */,
-				84028A84203DB42F001308B5 /* Organization.swift */,
-				84028A89203DBB36001308B5 /* Data.swift */,
-				84028A8B203DBBB1001308B5 /* Citizen.swift */,
+				843059622045908500043627 /* Group.swift */,
+				8430596B2045987200043627 /* Data.swift */,
+				8430596D2045991B00043627 /* Citizen.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -120,6 +123,16 @@
 			path = reference;
 			sourceTree = "<group>";
 		};
+		84305964204596C100043627 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				84305965204596D200043627 /* ServerManager.swift */,
+				843059672045971E00043627 /* HTTPRequestManager.swift */,
+				843059692045974300043627 /* HttpStatusCode.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		84A0082520369BE80043A4B8 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 		84A0083020369BE80043A4B8 /* MigrationApp */ = {
 			isa = PBXGroup;
 			children = (
+				84305964204596C100043627 /* utils */,
 				84028A81203D9D37001308B5 /* model */,
 				84028A80203D9D25001308B5 /* ui */,
 				84A0083120369BE80043A4B8 /* AppDelegate.swift */,
@@ -303,17 +317,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84305966204596D200043627 /* ServerManager.swift in Sources */,
+				843059632045908500043627 /* Group.swift in Sources */,
+				8430596E2045991B00043627 /* Citizen.swift in Sources */,
 				84028A88203DB9DB001308B5 /* StatusBarController.swift in Sources */,
-				84028A83203D9D59001308B5 /* Region.swift in Sources */,
 				84A008492036B6790043A4B8 /* SettingsController.swift in Sources */,
 				847FB18D20383B87005AA1F9 /* OrganizationsViewController.swift in Sources */,
-				84028A8A203DBB36001308B5 /* Data.swift in Sources */,
 				84A0083A20369BE80043A4B8 /* MigrationApp.xcdatamodeld in Sources */,
 				84A0083220369BE80043A4B8 /* AppDelegate.swift in Sources */,
 				841774F420381BD600FB3986 /* ReferenceViewController.swift in Sources */,
+				8430596C2045987200043627 /* Data.swift in Sources */,
 				841774F7203820EA00FB3986 /* OrganizationViewCell.swift in Sources */,
-				84028A85203DB42F001308B5 /* Organization.swift in Sources */,
-				84028A8C203DBBB1001308B5 /* Citizen.swift in Sources */,
+				843059682045971E00043627 /* HTTPRequestManager.swift in Sources */,
+				8430596A2045974300043627 /* HttpStatusCode.swift in Sources */,
 				841774F02038119800FB3986 /* SettingViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

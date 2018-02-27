@@ -2,33 +2,19 @@
 //  Data.swift
 //  MigrationApp
 //
-//  Created by ITLabAdmin on 2/21/18.
+//  Created by ITLabAdmin on 2/27/18.
 //  Copyright © 2018 iCoder. All rights reserved.
 //
 
 import Foundation
 import SwiftyJSON
 
-class Data {
-    
-    var lang : String
-    var citizens : Citizens
+struct Data {
+    var groups: Groups?
+    var citizenship: Citizens?
     
     init(json: JSON) {
-        lang = json["lang"].stringValue
-        citizens = Citizens(json : json["citizens"])
-        
-    }
-}
-
-class Datas {
-    var array : Array = Array<Data>()
-    
-    init(json : JSON) {
-        let jsonArray : [JSON] = json.arrayValue
-        for json in jsonArray {
-            let tempObj = Data(json : json)
-            array.append(tempObj)
-        }
+        self.groups = Groups(json: json["groups"] as JSON)
+        self.citizenship = Citizens(json: json["citizenship"] as JSON)
     }
 }

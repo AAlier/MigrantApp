@@ -22,6 +22,12 @@ class OrganizationsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        ServerManager.shared.getData({ (data) in
+            print(data)
+        }, error: {_ in 
+            
+        })
+        
         tableView.tableFooterView = UIView()
         tableView.register(OrganizationViewCell.self, forCellReuseIdentifier: cellName)
         tableView.register(UINib(nibName: cellName, bundle: nil), forCellReuseIdentifier: cellName)
