@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aKR-wa-cht">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -182,7 +182,6 @@
         <!--Organizations View Controller-->
         <scene sceneID="suX-Y8-Zdk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wWg-VU-zyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="OrganizationsViewController" id="8sl-EF-wDq" customClass="OrganizationsViewController" customModule="MigrationApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PAf-aC-PtE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -209,6 +208,7 @@
                         <outlet property="tableView" destination="5Jn-lm-NkX" id="fxS-5I-C0J"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wWg-VU-zyt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1962" y="699"/>
         </scene>
